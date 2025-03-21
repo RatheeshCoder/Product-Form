@@ -3,7 +3,7 @@ import axios from 'axios';
 export const createEndUserTicket = async (ticketData, apiKeys) => {
     try {
         const response = await axios.post(
-            `http://localhost:5002/api/v1/userQuery/end-user-ticket`,
+            `https://q8kdlf6k-5002.inc1.devtunnels.ms/api/v1/userQuery/end-user-ticket`,
             ticketData,
             {
                 headers: {
